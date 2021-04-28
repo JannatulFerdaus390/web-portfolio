@@ -12,7 +12,7 @@ p{
     color: dimgray;
     text-align: left;
 }
-.name{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -30,7 +30,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -40,12 +40,6 @@ section{
     border-radius: 5px;
     background-image: linear-gradient(lightsalmon,tomato);
 }
-.middle-width{
-    width: 40%;
-    margin-left: 5%;
-    padding: 2%;
-    float: left;
-}
 .middle-width img{
     width: 100%;
 }
@@ -53,4 +47,25 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-exp{
+    box-shadow:10px 10px 40px grey;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stake-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;   
+}
+#baby-web-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
